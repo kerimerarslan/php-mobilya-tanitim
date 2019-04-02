@@ -1,0 +1,574 @@
+
+@keyframes arkaplandegis
+{
+    0%
+    {
+        background:url(../images/slider2.jpg);
+        background-repeat: no-repeat;
+    }
+    25%
+    {
+        background:url(../images/slider2.jpg);
+        background-repeat: no-repeat;
+    }
+    50%
+    {
+        background:url(../images/slider3.jpg);
+        background-repeat: no-repeat;
+    }
+    75%
+    {
+        background:url(../images/slider4.jpg);
+        background-repeat: no-repeat;
+    }
+    100%
+    {
+        backgorund:url(../images/slider5.jpg);
+        background-repeat: no-repeat;
+    }
+}
+.sablonum
+{
+    width:900px;
+    height:600px; 
+    margin:20px auto;
+    border: 3px;
+      
+}
+#icerik
+{
+    width:900px;
+    height:auto; 
+    margin:20px auto;
+    border: 3px;
+    float:left;
+}
+
+.logo
+{
+    width: 100px; 
+    height:100px; 
+    float:left; 
+    background: url(../images/damla.jpg) 
+}
+.baslik
+{
+    width:700px; 
+    height:30px; 
+    float:left; 
+    margin: 0 0 0 13px; 
+    background-color:  #000000; 
+      opacity:0.6;
+    filter:alpha(opacity=60);
+    
+    border-radius: 13px 13px 13px 13px;
+    color: azure;
+    font: bold ;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+.menu
+{
+    width: 700px;
+    height: 45px;
+    float: left;
+    margin: 10px 0 0 13px;
+    background-color:  #000000; 
+      opacity:0.6;
+    filter:alpha(opacity=60);
+    
+    border-radius: 13px 13px 13px 13px;
+    
+}
+.altsablon
+{
+    width: 900px; 
+    height:200px; 
+    float: left; 
+    margin:auto;
+    border-radius: 13px 13px 13px 13px;
+}
+/*.altfotolar_1
+{
+    width: 290px; 
+    height:165px; 
+    float: left; 
+    margin: 13px 0 0 0 ;  
+    background: url(../images/yatak2.jpg);
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 3px 3px 3px #000;
+}*/
+.altfotolar_2
+{
+    width: 390px;
+    height: 165px;
+    float: left;
+    margin: 13px 0 0 50px;
+    background: url(../images/elsikisan.jpg);
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 3px 3px 3px #000;
+}
+.altfotolar_3
+{
+    width: 390px;
+    height: 165px;
+    float: left;
+    margin: 13px 0 0 20px ;
+    border-radius: 13px 13px 13px 13px;
+    background: url(../images/yorum.jpg);
+    color: aqua;
+    box-shadow: 3px 3px 3px #000;
+}
+/*.altaciklama1
+{
+    width: 290px; 
+    height:100px; 
+    float: left; 
+    margin: 7px 0 0 0 ;  
+    border-radius: 13px 13px 13px 13px;
+}*/
+.altaciklama2
+{
+    width: 390px; 
+    height:100px; 
+    float: left; 
+    margin: 7px 0 0 50px ;  
+    
+    border-radius: 13px 13px 13px 13px;
+    
+    padding-left: 4px;
+    padding-top: 10px;
+    font: 15px tahoma;
+    text-align: center;
+}
+.altaciklama3
+{
+    width: 390px; 
+    height:100px; 
+    float: left; 
+    margin: 7px 0 0 20px ;  
+    border-radius: 13px 13px 13px 13px;
+    padding-top: 10px;
+    font: 15px tahoma;
+    text-align: center;
+}
+
+
+
+.menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li
+{
+    float: left;
+}
+.menu ul li a
+{
+    display: block;width: 175px;height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font: 13px tahoma;
+    color:aqua;
+    padding: 15px 0 0 0 ;
+}
+.menu ul li a:hover
+{
+    text-decoration: underline;
+    background: whitesmoke;
+    border-radius: 11px;
+}
+
+.hakkimizda
+{
+
+}
+.hakkimizda_aciklama
+{
+    width: 900px;
+    height: 500px;
+    float: left;
+    margin: 10px 0 0 0;
+    font-family: tahoma;
+    
+}
+.hakkimizda_kucukfoto
+{
+    width: 350px;
+    height: 283px;
+    float: right;
+    background: url(../images/hakkimizda_adam2.jpg);
+    margin: 10px 0 0 10px ;
+}
+.iletisim_harita
+{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin: 20px 0 0 0 ;   
+    box-shadow: 3px 3px 3px #000;
+}
+.iletisim_bilgiler
+{
+    width: 800px;
+    height: 320px;
+    float: left;
+    margin: 10px 0 0 0 ;
+    
+}
+.orta_ayrac
+{
+    width: 1340px;
+    height: 25px;
+    float: left;
+    background: crimson;
+    margin:60px 0 0 -223px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.orta_ayrac:after
+{
+    content: '';
+    border:10px solid transparent;
+    border-top: 10px solid crimson;
+    position: absolute;
+    bottom: 42px;
+    right: 660px;
+}
+.altfotolar_2 a
+{
+    display: block;
+    width: 390px;
+    height: 165px;
+}
+.altfotolar_2 a:hover
+{
+    background-color:  #000000; 
+      opacity:0.3;
+    filter:alpha(opacity=30);
+    border: 3px solid red;
+    border-radius: 13px 13px 13px 13px;
+}
+#mesajsablonu
+{
+    width: 815px;
+    height: 400px;
+    float: left;
+    background: #a2cef9;
+    margin: 50px 0 0 0;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 3px 3px 3px #000;
+}
+.mesaj_yazi_sablonu
+{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.mesaj_yazi_sablonu2
+{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 0 0 0 0;
+}
+.mesaj_yazi_sablonu3
+{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-top: 80px;
+}
+#musteriformu
+{
+    background: #f4f5f7;
+}
+.footer
+{
+    width: 1345px;
+    height: 30px;
+    float: left;
+    background: #000;
+    margin-top:100px;
+    margin-left: -225px;
+    margin-bottom: -30px;
+    padding-top: 10px;
+    color: white;
+}
+.footer_iletisim
+{
+    width: 1345px;
+    height: 30px;
+    float: left;
+    background: #000;
+    margin:300px 0 -30px -225px;
+    text-align: left;
+    padding-top: 10px;
+    color: white;
+}
+.footer_hakkimizda
+{
+    width: 1345px;
+    height: 30px;
+    float: left;
+    background: aqua;
+    margin:0 0 0 -223px;
+}
+.urungir_sablon
+{
+    width: 900px;
+    height: 500px;
+    float: left;
+    background: aqua;
+    
+}
+.asdasdasd
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: #000000;
+}
+.mesaj_liste_sablonu
+{
+    width: 900px;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+table,tr,td,th{
+    border:2px solid #666;
+}
+td,th{
+    padding: 5px;
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+input
+{
+    border-radius: 7px;
+    background-color: white;
+}
+input[type="submit"]
+{
+    width: 70px;
+    height: 30px;
+}
+textarea
+{
+    border-radius: 10px;
+}
+.urunler_sablon
+{
+    width: 1100px;
+    height: auto;
+    float:left;
+    margin-top: 50px;
+    
+}
+.slider
+{
+    width: 900px;
+    height: 365px;
+    float: left;
+   
+}
+.urun_alani
+{
+    width: 250px;
+    height: 250px;
+    max-height: 300px;
+    max-width: 300px;
+    float: left;
+    margin-top:3px;
+    border-radius: 10px;
+    
+    
+    
+}
+.urun_ismi
+{
+    width: 250px;
+    height: 30px;
+    background: #e5e5e5;
+    float: left;
+    border-radius: 13px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #000;
+    padding-top: 13px;
+    
+}
+.urun_aciklamasi
+{
+    width: 250px;
+    height: 50px;
+    float: left;
+    background: #e5e5e5;
+    border-radius: 13px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 3px 3px 3px #000;
+    padding-bottom: 50px;
+}
+.urun_foto_duzenleme
+{
+    width: 320px;
+    height: 400px;
+    float:left;
+    margin-top: 10px;
+}
+.altfotolar_3 a
+{
+    display: block;
+    width: 390px;
+    height: 165px;
+}
+.altfotolar_3 a:hover
+{
+    background-color:  #000000; 
+      opacity:0.3;
+    filter:alpha(opacity=30);
+    border: 3px solid red;
+    border-radius: 13px 13px 13px 13px;
+}
+.urun_girme_menusu
+{
+    width: 700px;
+    height: 45px;
+    float: left;
+    margin: 10px 0 0 13px;
+    background-color:  #000000; 
+      opacity:0.6;
+    filter:alpha(opacity=60);
+    
+    border-radius: 13px 13px 13px 13px;
+    
+}
+.urun_girme_menusu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.urun_girme_menusu ul li a
+{
+    display: block;width: 700px;height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font: 13px tahoma;
+    color:aqua;
+    padding: 15px 0 0 0 ;
+}
+.urun_girme_menusu ul li a:hover
+{
+    text-decoration: underline;
+    background: whitesmoke;
+    border-radius: 11px;
+}
+.musteri_formu_menusu
+{
+    width: 700px;
+    height: 45px;
+    float: left;
+    margin: 10px 0 0 13px;
+    background-color:  #000000; 
+      opacity:0.6;
+    filter:alpha(opacity=60);
+    
+    border-radius: 13px 13px 13px 13px;
+    
+}
+.musteri_formu_menusu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.musteri_formu_menusu ul li a
+{
+    display: block;width: 350px;height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font: 13px tahoma;
+    color:aqua;
+    padding: 15px 0 0 0 ;
+}
+.musteri_formu_menusu ul li a:hover
+{
+    text-decoration: underline;
+    background: whitesmoke;
+    border-radius: 11px;
+}
+.musteri_formu_menusu ul li
+{
+    float: left;
+}
+.liste_menusu
+{
+    width: 700px;
+    height: 45px;
+    float: left;
+    margin: 10px 0 0 13px;
+    background-color:  #000000; 
+      opacity:0.6;
+    filter:alpha(opacity=60);
+    
+    border-radius: 13px 13px 13px 13px;
+}
+.liste_menusu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.liste_menusu ul li
+{
+    float: left;
+}
+.liste_menusu ul li a
+{
+    display: block;width: 350px;height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font: 13px tahoma;
+    color:aqua;
+    padding: 15px 0 0 0 ;
+}
+.liste_menusu ul li a:hover
+{
+    text-decoration: underline;
+    background: whitesmoke;
+    border-radius: 11px;
+}
+.urun_gir_buton
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: chocolate;
+    float: left;
+    margin-left: -200px;
+}
+.urun_gir_buton a
+{
+    display: block;width: 100px;height: 35px;
+    text-decoration: none;
+    text-align: center;
+    font: 13px tahoma;
+    color:aqua;
+    padding-top: 15px;
+}
+.urun_gir_buton a:hover
+{
+    text-decoration: underline;
+    background: whitesmoke;
+    border-radius: 9px;
+}
